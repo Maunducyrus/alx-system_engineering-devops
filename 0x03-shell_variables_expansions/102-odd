@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -iA 3 "root" /etc/passwd
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
